@@ -2,6 +2,8 @@
 
 class person{
 
+    public $titel = "Colleague: ";
+
     public function __construct(public $name, public $surname, public $age){
 
     }
@@ -15,3 +17,7 @@ $tom = new person("Tom", "Mie", 38);
 var_dump($john);
 var_dump($jake);
 var_dump($tom);
+
+echo $john. "<br>";
+echo $jake. "<br>";
+echo $tom. "<br>";
