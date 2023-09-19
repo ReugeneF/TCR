@@ -18,6 +18,6 @@ var_dump($john);
 var_dump($jake);
 var_dump($tom);
 
-echo $john. "<br>";
-echo $jake. "<br>";
-echo $tom. "<br>";
+echo $john->name . "<br>";
+echo $jake->name . "<br>";
+echo $tom->name . "<br>";
